@@ -6,9 +6,8 @@
         <p class="lead">✨ Milano is the official distributor of certain coffee merchandises, that not only assure you the product quality, 
             as well as the excellence after-sales service, 
             also taking your home brewing "business" to the next level.
-           
     </div>
-    <section id="main-content">
+       <section id="main-content">
             <section class="wrapper">
                 <div class="row">
                     <div class="col-lg-12">
@@ -18,42 +17,34 @@
                                     <h1>🛒 Pick Your Love</h1>
                                 </div>
                              </header>
-
-                          <div class="panel-body">
-                            <div class="row">
-                              <div class="col-lg-6">
-                                <div class="thumbnail">
-                                    <img src="Images/coldBrew/coldBrew1.jpeg" />
-                                    <div class="caption">
-                                         <p>🥃<b>Summer Limited</b> | <em>Refreshing Taste</em> - Best for brewing with coconut water and mineral water</p>
-                                        <div class="row">
-                                        <div class="col-md-6">
-                                            <p>💰<b>65.00</b></p>
-                                        </div>
-                                         <div class="col-md-6">
-                                            <p>💰<b>65.00</b></p>
-                                        </div>       
+                         
+     <div class="panel-body">
+         <div class="col-lg-12">
+                   <asp:DataList ID="d1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
+                       <ItemTemplate>
+                          <div class="thumbnail">
+                                <img src ="<%# Eval("image1")%>"/>
+                                   <div class="caption">
+                                      <p>🥃<b>Summer Limited</b> | <em>Refreshing Taste</em> -  <%# Eval("name")%></p>
+                                         <div class="row">
+                                            <div class="col-md-6">
+                                                <p>💰<b><%# Eval("price")%></b></p>
+                                            </div>
+                                            <div class="col-md-6">
+                                           <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                </div>       
+                                            </div>    
+                                          </div>
+                                    </div>
                                     </div>
-                                    </div>
-                                    
-                                   </div>
-                                </div>
-                              
-                            <div class="col-lg-6">
-                                <div class="thumbnail">
-                                    <img src="Images/coldBrew/coldBrew2.jpeg" />
-                                    <div class="caption">
-                                      <p>Lorem ipsum...</p>
-                                    </div>
-                                </div>
-                              </div>
-
-                            </div>
-                              </div>
+                                 </ItemTemplate>
+                            </asp:DataList>
+             </div>
+                                  </div>
                             </section>
                             </div>
                           </div>
-                           </section>
-                     
-               </section>
+                      </section>
+               </section>       
 </asp:Content>
+
+

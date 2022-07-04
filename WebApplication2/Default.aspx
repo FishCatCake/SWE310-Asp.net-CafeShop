@@ -32,7 +32,7 @@
                 
             </p>
             <p>
-                <a runat="server" class="btn btn-default" href="~/espresso_machine.aspx">Learn more &raquo;</a>
+                <a runat="server" class="btn btn-default" href="~/drip.aspx">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -43,7 +43,7 @@
                 <em>Click to find out more details.</em>
             </p>
             <p>
-                <a runat="server" class="btn btn-default" href="~/hario_brewing.aspx">Learn more &raquo;</a>
+                <a runat="server" class="btn btn-default" href="~/beans.aspx">Learn more &raquo;</a>
             </p>
         </div>
     </div>

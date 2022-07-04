@@ -106,6 +106,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -113,7 +117,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="espresso_machine.aspx" />
+    <Content Include="drip.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -125,12 +129,30 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="hario_brewing.aspx" />
+    <Content Include="beans.aspx" />
     <Content Include="home_brewing.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Images\coldBrew\coldBrew1.jpeg" />
-    <Content Include="Images\coldBrew\coldBrew2.jpeg" />
-    <Content Include="Images\Rhapsody.jpg" />
+    <Content Include="Images\1\1.jpeg" />
+    <Content Include="Images\1\2.jpeg" />
+    <Content Include="Images\2\blind1.jpeg" />
+    <Content Include="Images\2\drip1.jpeg" />
+    <Content Include="Images\2\drip2.jpeg" />
+    <Content Include="Images\2\drip3.jpeg" />
+    <Content Include="Images\2\drip4.jpeg" />
+    <Content Include="Images\2\drip5.jpeg" />
+    <Content Include="Images\2\drip6.jpeg" />
+    <Content Include="Images\2\mix.jpeg" />
+    <Content Include="Images\2\mix1.jpeg" />
+    <Content Include="Images\3\bean1.jpeg" />
+    <Content Include="Images\3\bean2.jpeg" />
+    <Content Include="Images\3\bean3.jpeg" />
+    <Content Include="Images\3\bean4.jpeg" />
+    <Content Include="Images\3\bean5.jpeg" />
+    <Content Include="Images\3\bean6.jpeg" />
+    <Content Include="Images\3\bean7.jpeg" />
+    <Content Include="Images\3\bean8.jpeg" />
+    <Content Include="Images\3\beanImg1.jpeg" />
+    <Content Include="Images\3\beanImg2.jpeg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -191,22 +213,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="espresso_machine.aspx.cs">
-      <DependentUpon>espresso_machine.aspx</DependentUpon>
+    <Compile Include="drip.aspx.cs">
+      <DependentUpon>drip.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="espresso_machine.aspx.designer.cs">
-      <DependentUpon>espresso_machine.aspx</DependentUpon>
+    <Compile Include="drip.aspx.designer.cs">
+      <DependentUpon>drip.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="hario_brewing.aspx.cs">
-      <DependentUpon>hario_brewing.aspx</DependentUpon>
+    <Compile Include="beans.aspx.cs">
+      <DependentUpon>beans.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hario_brewing.aspx.designer.cs">
-      <DependentUpon>hario_brewing.aspx</DependentUpon>
+    <Compile Include="beans.aspx.designer.cs">
+      <DependentUpon>beans.aspx</DependentUpon>
     </Compile>
     <Compile Include="home_brewing.aspx.cs">
       <DependentUpon>home_brewing.aspx</DependentUpon>
@@ -252,9 +274,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
