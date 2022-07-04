@@ -32,7 +32,7 @@
         </div>
         <div class="storeInfo__item">
           <div class="storeInfo__icon">
-            <img src="Images/Contact/icon_2.png" alt="clock icon">
+            <img src="Images/Contact/icon_3.png" alt="clock icon">
           </div>
           <h5 class="storeInfo__title">
             GEC, Chittagong
@@ -43,10 +43,10 @@
           </div>      
         <div class="storeInfo__item">
           <div class="storeInfo__icon">
-            <img src="Images/Contact/icon_3.png" alt="clock icon">
+            <img src="Images/Contact/icon_2.png" alt="clock icon" style="width: 64px; height: 64px">
           </div>
           <h5 class="storeInfo__title">
-            +880123443
+            (619) 688-1882
           </h5>
           <p class="storeInfo__text">
             Call Now
@@ -57,7 +57,9 @@
   </section>
   <!-- End Store Info Section -->
 <br /><br /><br />
-                            <center><asp:Button Text="Contact Online" ID="Button1" Width="220px" runat="server" Font-Bold="True" Font-Size="Larger" BackColor="#524343" ForeColor="White" Height="50px" BorderColor="#524343" OnClick="Button1_Click" /></center>
+                           
+                            <center><a href="Contact Form.aspx " class="dbtn">Contact Online &raquo;</a></center>
+                            
                             <br /><br />
                    
                     

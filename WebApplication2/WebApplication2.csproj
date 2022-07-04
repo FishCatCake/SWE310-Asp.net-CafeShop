@@ -117,7 +117,6 @@
     <Content Include="Content\flexslider.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="espresso_machine.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -129,8 +128,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="hario_brewing.aspx" />
-    <Content Include="home_brewing.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\coldBrew\coldBrew1.jpeg" />
     <Content Include="Images\coldBrew\coldBrew2.jpeg" />
@@ -209,29 +206,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="espresso_machine.aspx.cs">
-      <DependentUpon>espresso_machine.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="espresso_machine.aspx.designer.cs">
-      <DependentUpon>espresso_machine.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="hario_brewing.aspx.cs">
-      <DependentUpon>hario_brewing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="hario_brewing.aspx.designer.cs">
-      <DependentUpon>hario_brewing.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="home_brewing.aspx.cs">
-      <DependentUpon>home_brewing.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="home_brewing.aspx.designer.cs">
-      <DependentUpon>home_brewing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShoppingCart.aspx.cs">
