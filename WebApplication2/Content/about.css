@@ -1,5 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
-
+﻿
 html {
     font-size: 10px;
     overflow-x: hidden;
@@ -64,14 +63,13 @@ section {
     .ourStory__img {
         width: 550px;
         height: 400px;
-        margin-top: 0px;
+       
         flex: 1;
     }
 
     .ourStory__info {
         width: 450px;
         margin-left: 600px;
-        margin-top: -300px;
         flex: 1;
     }
 

@@ -19,8 +19,8 @@
                           <div class="panel-body">
                             <div class="row">
                               <div class="col-lg-6">
-                                    <div class="thumbnail">
-                                    <img src="Images/machine/machine_1.png" style="width: 574px; height: 400px" />
+                                    <div class="thumbnail" style="width: 574px; height: 550px">
+                                    <img src="Images/machine/machine_1.png"/>
                                     <div class="caption">
                                          <p>🥃<b>New product</b> | <em>La Marzocco Auto Brew Ratio</em></p>
                                         <div class="row">
@@ -37,8 +37,8 @@
                                 </div>
                               
                             <div class="col-lg-6">
-                                <div class="thumbnail">
-                                    <img src="Images/machine/machine_3.png" width: 574px; height: 400px/>
+                                <div class="thumbnail" style="width: 574px; height: 550px">
+                                    <img src="Images/machine/machine_3.png" />
                                     <div class="caption">
                                       <p>🥃<b>Hot product</b> | <em>La Marzocco Leva X/S Espresso Machine</em></p>
                                       <div class="row">

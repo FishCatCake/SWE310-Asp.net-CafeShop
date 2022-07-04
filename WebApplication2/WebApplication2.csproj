@@ -106,11 +106,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Contact Form.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\about.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\flexslider.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="espresso_machine.aspx" />
@@ -130,6 +134,13 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\coldBrew\coldBrew1.jpeg" />
     <Content Include="Images\coldBrew\coldBrew2.jpeg" />
+    <Content Include="Images\Contact\contact_1.jpg" />
+    <Content Include="Images\Contact\icon_1.png" />
+    <Content Include="Images\Contact\icon_2.png" />
+    <Content Include="Images\Contact\icon_3.png" />
+    <Content Include="Images\Contact\staff_1.jpg" />
+    <Content Include="Images\Contact\staff_2.jpg" />
+    <Content Include="Images\Contact\staff_3.jpg" />
     <Content Include="Images\Rhapsody.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -177,6 +188,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact Form.aspx.cs">
+      <DependentUpon>Contact Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Form.aspx.designer.cs">
+      <DependentUpon>Contact Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

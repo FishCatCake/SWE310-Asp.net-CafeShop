@@ -7,17 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication2
 {
-    public partial class Contact : Page
+    public partial class Contact_Form : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btsave_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Contact Form.aspx?");
+            Label_feedback.Text = (txtStdname.Text + " " + txtfname.Text + ", thanks for your feedback and we will contact you soon!");
         }
     }
-    
 }
