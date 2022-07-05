@@ -23,7 +23,7 @@
                                       <asp:DataList ID="d2" runat="server" RepeatColumns="2" RepeatDirection="Horizontal">
                                            <ItemTemplate>
                                         <div class="thumbnail">
-                                            <img src ="<%# Eval("image2")%>"/>
+                                            <img src ="<%# Eval("image")%>"/>
                                             <div class="caption">
                                                  <p>♨️ <b>Drip Bag</b> | <em> <%# Eval("name")%></em> -  <%# Eval("description")%></p><br /><br />
                                                 <div class="row">

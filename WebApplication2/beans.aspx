@@ -45,12 +45,11 @@
                                            </div>
                                         </div>
                                   </div>
-                                  //
                                   
                                        <asp:DataList ID="d3" runat="server" RepeatColumns="2" RepeatDirection="Horizontal">                                 
                                            <ItemTemplate >
                                         <div class="thumbnail">
-                                             <img src ="<%# Eval("image3")%>"/>
+                                             <img src ="<%# Eval("image")%>"/>
                                              <div class="caption">
                                                  <p>🌰 <b>Coffee Beans</b> | <em> <%# Eval("name")%></em> -  <%# Eval("description")%></p><br /><br />
                                                 <div class="row">

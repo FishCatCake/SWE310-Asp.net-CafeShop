@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="~/User_reg.aspx.cs" Inherits="WebApplication2.home_brewing" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="home_brewing.aspx.cs" Inherits="WebApplication2.home_brewing" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
@@ -23,15 +23,16 @@
                    <asp:DataList ID="d1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
                        <ItemTemplate>
                           <div class="thumbnail">
-                                <img src ="<%# Eval("image1")%>"/>
+                                <img src ="<%# Eval("image")%>"/>
                                    <div class="caption">
-                                      <p>🥃<b>Summer Limited</b> | <em>Refreshing Taste</em> -  <%# Eval("name")%></p>
+                                      <p>🥃<b>Summer Limited</b> | <em>Refreshing Taste</em> -  <%# Eval("description")%></p>
                                          <div class="row">
                                             <div class="col-md-6">
                                                 <p>💰<b><%# Eval("price")%></b></p>
                                             </div>
                                             <div class="col-md-6">
-                                           <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                </div>       
+                                           <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                
+                                            </div>       
                                             </div>    
                                           </div>
                                     </div>
