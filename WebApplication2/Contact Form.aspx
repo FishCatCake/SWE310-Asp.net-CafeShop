@@ -82,12 +82,12 @@
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="form-group">
                                     
-
+                                   <center><asp:Label ID="Label_feedback" runat="server" Text=""></asp:Label></center><br />
                                    <center><asp:Button Text="Submit" ID="btsave" Width="220px" runat="server" Font-Bold="True" Font-Size="Larger" OnClick="btsave_Click" BackColor="#524343" ForeColor="White" Height="50px" BorderColor="#524343"/></center>
                                   
                                     <br />
 		                            <p class="terms"><center>By clicking 'Submit' you agree to the <a href="#">Terms &amp; Conditions</a>.</center></p>
-                                    <center><asp:Label ID="Label_feedback" runat="server" Text=""></asp:Label></center>
+                                    
                                 </div>
                             </div>
                         </div>

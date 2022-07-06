@@ -35,7 +35,7 @@
             <img src="Images/Contact/icon_3.png" alt="clock icon">
           </div>
           <h5 class="storeInfo__title">
-            GEC, Chittagong
+            San Diego, CA
           </h5>
           <p class="storeInfo__text">
             Address
