@@ -25,7 +25,7 @@
                     <p> The cocoa, chocolate, and nutty flavors of the beans themselves are relaxing and comforting. <br /></p>
                     <em>Click to find out more details.</em>
                     <br />
-                    <a href="~/espresso_machine.aspx" class="dbtn">Learn more &raquo;</a>
+                    <a href="Coffee_Beans.aspx" class="dbtn">Learn more &raquo;</a>
                 </div>
                 <div class="image">
                     <img src="Images/Default/bean1.jpg" alt="">
@@ -40,7 +40,7 @@
                         having the essential tools is a must to satisfy your daily caffeine call.<br /></p>
                     <em>Click to find out more details.</em>
                     <br />
-                    <a href="~/home_brewing.aspx" class="dbtn">Learn more &raquo;</a>
+                    <a href="home_brewing.aspx" class="dbtn">Learn more &raquo;</a>
                 </div>
                 <div class="image">
                     <img src="Images/Default/coffe0.jpg" alt="">
@@ -55,7 +55,7 @@
                         Freshly roasted, zero added sucrose, pure black coffee.</p>
                     <em>Click to find out more details.</em>
                     <br />
-                    <a href="~/hario_brewing.aspx" class="dbtn">Learn more &raquo;</a>
+                    <a href="Drip_Coffee.aspx" class="dbtn">Learn more &raquo;</a>
                 </div>
                 <div class="image">
                     <img src="Images/Default/coffee1.jpg" alt="">
