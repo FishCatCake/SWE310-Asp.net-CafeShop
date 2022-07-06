@@ -7,7 +7,7 @@
                         <section class="panel">
                             <header class="panel-heading">
                                 <div class="col-md-4 col-md-offset-4">
-                                    <h1>User Registration</h1>
+                                    <h1>User Login</h1>
                                 </div>
                              </header>
                             <div class="panel-body">
