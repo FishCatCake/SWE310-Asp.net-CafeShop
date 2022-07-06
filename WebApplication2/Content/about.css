@@ -1,0 +1,138 @@
+﻿
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--lightGreen-2);
+    overflow-x: hidden;
+    visibility: hidden;
+}
+
+section {
+    padding: 100px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    section {
+        padding: 50px 0;
+    }
+}
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+/* Our Story Styles */
+.ourStory__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.ourStory__title,
+.ourGoals__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+}
+
+.ourStory__subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--black-1);
+    margin-bottom: 2rem;
+}
+
+.ourStory__text,
+.ourGoals__text {
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    color: var(--black-2);
+}
+
+@media only screen and (min-width: 768px) {
+    .ourStory__wrapper {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .ourStory__img {
+        width: 550px;
+        height: 400px;
+       
+        flex: 1;
+    }
+
+    .ourStory__info {
+        width: 450px;
+        margin-left: 600px;
+        flex: 1;
+    }
+
+    .ourStory__title,
+    .ourGoals__title {
+        font-size: 3.6rem;
+    }
+
+    .ourStory__subtitle {
+        font-size: 1.8rem;
+    }
+
+    .ourStory__text,
+    .ourGoals__text {
+        font-size: 1.8rem;
+        max-width: 800px;
+    }
+}
+
+/* Our Goals Styles */
+
+.ourGoals__info {
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.ourGoals__imgs__wrapper img {
+    object-fit: cover;
+}
+
+.ourGoals__imgs__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row: auto;
+    gap: 1rem;
+}
+
+.ourGoals__img1 {
+    grid-row: 1/3;
+    margin-left:-150px;
+}
+.ourGoals__img2 {
+    width: 431px;
+    
+}
+.ourGoals__img3 {
+    width: 470px;
+   
+}
+
+@media only screen and (min-width: 768px) {
+    .ourGoals__info {
+        text-align: center;
+    }
+
+    .ourGoals__imgs__wrapper {
+        gap: 2rem;
+    }
+
+    .ourGoals__text {
+        margin: 0 auto;
+    }
+}
