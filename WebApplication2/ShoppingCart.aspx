@@ -5,6 +5,7 @@
         <h1>🛒 SHOPING CART</h1>
         </div>
 
+
     <section id="main-content">
         <section class="wrapper">
             <div class="row">
@@ -16,16 +17,32 @@
                                 </div>
                              </header>
                           <div class="panel-body">
+                               <div class="col-md-6">
+                                           <asp:Button ID="addToCart1" runat="server" OnClick="Button1_Click"  Text="🛒 show" />                                                
+                                            </div> 
                               <div class="row">
-                                  <div class="col-">
-
+//                           <div class="col-md-12">
+                                      <asp:DataList ID="d1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
+                                           <ItemTemplate>
+                                        <div class="thumbnail">
+                                            <img src ="<%#Eval("image")%>"/>
+                                            <div class="caption">
+                                                 <p>🛍️ <b>Product Name</b> | <em> <%#Eval("name")%></em></p><br />
+                                                <div class="row">
+                                                <div class="col-md-6">
+                                                    <p>💰 <b><%#Eval("price")%></b></p>
+                                                </div>
+                                                 </div>
+                                            </div>
+                                         </div>
+                                           </ItemTemplate>
+                                        </asp:DataList>
+                                        </div>
                                   </div>
                                   </div>
-                              </div>
                          </section>
-                    </div>
+                              </div>
                 </div>
+                         </section>
             </section>
-    </section>
-
 </asp:Content>

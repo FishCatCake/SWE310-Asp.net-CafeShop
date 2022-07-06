@@ -11,16 +11,16 @@ namespace WebApplication2
 {
 
 
-    public partial class espresso_machine
+    public partial class product_desc
     {
 
         /// <summary>
-        /// d2 control.
+        /// d1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList d2;
+        protected global::System.Web.UI.WebControls.DataList d1;
     }
 }

@@ -11,25 +11,16 @@ namespace WebApplication2
 {
 
 
-    public partial class ShoppingCart
+    public partial class Coffee_Beans
     {
 
         /// <summary>
-        /// addToCart1 control.
+        /// d3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addToCart1;
-
-        /// <summary>
-        /// d1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList d1;
+        protected global::System.Web.UI.WebControls.DataList d3;
     }
 }

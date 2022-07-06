@@ -22,20 +22,22 @@
          <div class="col-lg-12">
                    <asp:DataList ID="d1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
                        <ItemTemplate>
+                           <a href="product_desc.aspx?id=<%#Eval("pid") %>">
                           <div class="thumbnail">
-                                <img src ="<%# Eval("image")%>"/>
+                                <img src ="<%#Eval("image")%>"/>
                                    <div class="caption">
-                                      <p>🥃<b>Summer Limited</b> | <em>Refreshing Taste</em> -  <%# Eval("description")%></p>
+                                      <p>🥃<b>Summer Limited</b> | <em><%#Eval("name")%></em> -  <%#Eval("description")%></p>
                                          <div class="row">
                                             <div class="col-md-6">
-                                                <p>💰<b><%# Eval("price")%></b></p>
+                                                <p>💰<b><%#Eval("price")%></b></p>
                                             </div>
                                             <div class="col-md-6">
-                                           <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                
+                                                                                        
                                             </div>       
                                             </div>    
                                           </div>
                                     </div>
+                               </a>
                                     </div>
                                  </ItemTemplate>
                             </asp:DataList>

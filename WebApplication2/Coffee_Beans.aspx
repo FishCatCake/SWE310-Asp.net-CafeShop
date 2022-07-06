@@ -1,5 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="beans.aspx.cs" Inherits="WebApplication2.hario_brewing" %>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Coffee_Beans.aspx.cs" Inherits="WebApplication2.Coffee_Beans" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    
      <div class="jumbotron">
         
         <h1>🌰 Coffee Beans</h1>
@@ -48,20 +49,18 @@
                                   
                                        <asp:DataList ID="d3" runat="server" RepeatColumns="2" RepeatDirection="Horizontal">                                 
                                            <ItemTemplate >
+                                               <a href="product_desc.aspx?id=<%#Eval("pid")%>">
                                         <div class="thumbnail">
                                              <img src ="<%# Eval("image")%>"/>
                                              <div class="caption">
-                                                 <p>🌰 <b>Coffee Beans</b> | <em> <%# Eval("name")%></em> -  <%# Eval("description")%></p><br /><br />
+                                                 <p>🌰 <b>Coffee Beans</b> | <em> <%#Eval("name")%></em> -  <%#Eval("description")%></p><br /><br />
                                                 <div class="row">
                                                 <div class="col-md-6">
                                                     <p>💰 <b><%# Eval("price")%></b></p>
                                                 </div>
-                                                 <div class="col-md-6">
-                                                     <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                </div>       
-                                                </div>
                                             </div>
                                            </div>
-
+                                                </a>
                                            </ItemTemplate>
                                        </asp:DataList>
                                         </div>
@@ -70,4 +69,5 @@
                     </div>
                 </section>
         </section>
+
 </asp:Content>

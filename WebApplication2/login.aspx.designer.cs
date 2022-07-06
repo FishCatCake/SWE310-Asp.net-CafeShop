@@ -11,25 +11,34 @@ namespace WebApplication2
 {
 
 
-    public partial class ShoppingCart
+    public partial class login
     {
 
         /// <summary>
-        /// addToCart1 control.
+        /// txtloginName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addToCart1;
+        protected global::System.Web.UI.WebControls.TextBox txtloginName;
 
         /// <summary>
-        /// d1 control.
+        /// txtloginPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList d1;
+        protected global::System.Web.UI.WebControls.TextBox txtloginPass;
+
+        /// <summary>
+        /// btnlogin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnlogin;
     }
 }

@@ -11,16 +11,16 @@ namespace WebApplication2
 {
 
 
-    public partial class hario_brewing
+    public partial class Drip_Coffee
     {
 
         /// <summary>
-        /// d3 control.
+        /// d2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList d3;
+        protected global::System.Web.UI.WebControls.DataList d2;
     }
 }

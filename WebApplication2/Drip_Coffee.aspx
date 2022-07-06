@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="drip.aspx.cs" Inherits="WebApplication2.espresso_machine" %>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-     <div class="jumbotron">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Drip_Coffee.aspx.cs" Inherits="WebApplication2.Drip_Coffee" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="jumbotron">
         <h1>♨️ Drip Bag Coffee </h1>
         <p class="lead">✨ Milano is the official distributor of certain coffee merchandises, that not only assure you the product quality, 
             as well as the excellence after-sales service, 
@@ -22,19 +22,19 @@
                                   <div class="col-md-12">
                                       <asp:DataList ID="d2" runat="server" RepeatColumns="2" RepeatDirection="Horizontal">
                                            <ItemTemplate>
+                                               <a href="product_desc.aspx?id=<%#Eval("pid")%>">
                                         <div class="thumbnail">
-                                            <img src ="<%# Eval("image")%>"/>
+                                            <img src ="<%#Eval("image")%>"/>
                                             <div class="caption">
-                                                 <p>♨️ <b>Drip Bag</b> | <em> <%# Eval("name")%></em> -  <%# Eval("description")%></p><br /><br />
+                                                 <p>♨️ <b>Drip Bag</b> | <em> <%#Eval("name")%></em> -  <%#Eval("description")%></p><br /><br />
                                                 <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>💰 <b><%# Eval("price")%></b></p>
+                                                    <p>💰 <b><%#Eval("price")%></b></p>
                                                 </div>
-                                                 <div class="col-md-6">
-                                                     <asp:Button ID="addToCart1" runat="server" Text="🛒 Add to cart" />                                                </div>       
-                                                </div>
+                                               
                                             </div>
                                          </div>
+                                                   </a>
                                            </ItemTemplate>
                                         </asp:DataList>
                                         </div>

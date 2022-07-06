@@ -53,8 +53,9 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/Registration.aspx">Register</a></li>
-                        <li><a runat="server" href="~/ShoppingCart.aspx">🛒</a></li>
+                        <li><a runat="server" href="~/reg.aspx">Register</a></li>
+                        <li><a runat="server" href="~/login.aspx">Login</a></li>
+                         <li><a runat="server" href="~/ShoppingCart.aspx">🛒</a></li>
                     </ul>
                 </div>
             </div>
