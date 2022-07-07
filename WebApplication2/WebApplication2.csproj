@@ -106,15 +106,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Contact Form.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\about.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\flexslider.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\default.css" />
-    <Content Include="Content\order.css" />
-    <Content Include="Content\Master.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -130,36 +131,16 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\coldBrew\coldBrew1.jpeg" />
     <Content Include="Images\coldBrew\coldBrew2.jpeg" />
-    <Content Include="Images\Default\bean.jpg" />
-    <Content Include="Images\Default\bean1.jpg" />
-    <Content Include="Images\Default\beans1.jpg" />
-    <Content Include="Images\Default\coffe0.jpg" />
-    <Content Include="Images\Default\coffee-beans.png" />
-    <Content Include="Images\Default\coffee0_dis.jpg" />
-    <Content Include="Images\Default\coffee1.jpg" />
-    <Content Include="Images\Default\coffee1_dis.jpg" />
-    <Content Include="Images\Default\coffee2.jpg" />
-    <Content Include="Images\Default\coffee2_dis.jpg" />
-    <Content Include="Images\Default\cup.jpg" />
-    <Content Include="Images\Default\cus.png" />
-    <Content Include="Images\Default\cus2.jpg" />
-    <Content Include="Images\Default\cus3.jpg" />
-    <Content Include="Images\Default\cus4.jpg" />
-    <Content Include="Images\Default\default.png" />
-    <Content Include="Images\Default\default_coffee.png" />
-    <Content Include="Images\Default\device.jpg" />
-    <Content Include="Images\Default\environment1.jpg" />
-    <Content Include="Images\Default\img01.jpg" />
-    <Content Include="Images\Default\img02.jpg" />
-    <Content Include="Images\Default\imgm.jpg" />
-    <Content Include="Images\Default\machine.jpg" />
-    <Content Include="Images\Default\machine_dis.jpg" />
-    <Content Include="Images\Default\R-C.jpg" />
-    <Content Include="Images\Default\video.mp4" />
+    <Content Include="Images\Contact\contact_1.jpg" />
+    <Content Include="Images\Contact\icon_1.png" />
+    <Content Include="Images\Contact\icon_2.png" />
+    <Content Include="Images\Contact\icon_3.png" />
+    <Content Include="Images\Contact\staff_1.jpg" />
+    <Content Include="Images\Contact\staff_2.jpg" />
+    <Content Include="Images\Contact\staff_3.jpg" />
     <Content Include="Images\Rhapsody.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\Default.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -204,6 +185,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact Form.aspx.cs">
+      <DependentUpon>Contact Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Form.aspx.designer.cs">
+      <DependentUpon>Contact Form.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
