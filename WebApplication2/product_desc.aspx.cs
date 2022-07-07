@@ -15,6 +15,7 @@ namespace WebApplication2
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\apple\source\repos\WebApplication_group\WebApplication2\App_Data\Database1.mdf;Integrated Security=True");
         int id;
         string name, description, price, image;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.QueryString["id"] == null)
@@ -38,10 +39,10 @@ namespace WebApplication2
                 con.Close();
             }
 
-            
+
         }
 
-        protected void addToCart1_Click(object sender, EventArgs e)
+        protected void add_Click(object sender, EventArgs e)
         {
             id = Convert.ToInt32(Request.QueryString["id"].ToString());
             con.Open();
@@ -74,6 +75,7 @@ namespace WebApplication2
                 Response.Cookies["aa"].Value = Request.Cookies["aa"].Value + "|" + name.ToString() + "," + description.ToString() + "," + price.ToString() + "," + image.ToString();
                 Response.Cookies["aa"].Expires = DateTime.Now.AddDays(1);
             }
+            Response.Write("Add successfully!");
         }
     }
 }

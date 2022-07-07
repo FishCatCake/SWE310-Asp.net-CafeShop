@@ -9,21 +9,22 @@ using System.Data.SqlClient;
 
 namespace WebApplication2
 {
-    public partial class ShoppingCart : System.Web.UI.Page
+    public partial class Cart : System.Web.UI.Page
     {
         string s;
         string t;
         string[] a = new string[4];
         protected void Page_Load(object sender, EventArgs e)
         {
-             
+
         }
 
-        protected void add_Click(object sender, EventArgs e)
+        protected void Button1_Click_Click(object sender, EventArgs e)
         {
+
             DataTable dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[4] { new DataColumn("name"), new DataColumn("description"), new DataColumn("price"), new DataColumn("image") });
-       
+
             if (Request.Cookies["aa"] != null)
             {
                 s = Convert.ToString(Request.Cookies["aa"].Value);
@@ -46,6 +47,7 @@ namespace WebApplication2
 
             d1.DataSource = dt;
             d1.DataBind();
+
         }
     }
 }

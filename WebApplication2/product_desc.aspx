@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="product_desc.aspx.cs" Inherits="WebApplication2.product_desc" enableEventValidation="false"%>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="product_desc.aspx.cs" Inherits="WebApplication2.product_desc" enableEventValidation="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
       <div class="jumbotron">
@@ -58,7 +58,7 @@
                                                 <p>💰<b><%#Eval("price")%></b></p>
                                             </div>
                                             <div class="col-md-6">
-                                           <asp:Button ID="addToCart1" runat="server" OnClick="addToCart1_Click"  Text="🛒 Add to cart" />                                                
+                                           <asp:Button ID="add" runat="server" OnClick="add_Click"  Text="🛒 Add to cart" />                                                
                                             </div>       
                                             </div>    
                                           </div>

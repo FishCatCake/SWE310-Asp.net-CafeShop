@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="~/ShoppingCart.aspx.cs" Inherits="WebApplication2.ShoppingCart" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Cart.aspx.cs" Inherits="WebApplication2.Cart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
@@ -18,10 +18,10 @@
                              </header>
                           <div class="panel-body">
                                <div class="col-md-6">
-                                           <asp:Button ID="add" runat="server" OnClick="add_Click"  Text="🛒 show" />                                                
+                                           <asp:Button ID="Button1_Click" runat="server" OnClick="Button1_Click_Click"  Text="🛒 show" />                                                
                                             </div> 
                               <div class="row">
-                        <div class="col-md-12">
+//                           <div class="col-md-12">
                                       <asp:DataList ID="d1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
                                            <ItemTemplate>
                                         <div class="thumbnail">
@@ -39,8 +39,17 @@
                                         </asp:DataList>
                                         </div>
                                   </div>
-                              </div>
-                        
+                              //
+                        <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" RepeatDirection="Horizontal">
+                                           <ItemTemplate>
+                                               <table>
+                                                   <tr>
+                                                       <td></td>
+                                                   </tr>
+                                               </table>
+                                               </ItemTemplate>
+                                               </asp:DataList>
+                                  </div>
                          </section>
                               </div>
                 </div>

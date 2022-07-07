@@ -11,8 +11,17 @@ namespace WebApplication2
 {
 
 
-    public partial class product_desc
+    public partial class Cart
     {
+
+        /// <summary>
+        /// Button1_Click control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1_Click;
 
         /// <summary>
         /// d1 control.
@@ -22,7 +31,14 @@ namespace WebApplication2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataList d1;
-        protected global::System.Web.UI.WebControls.Button add;
 
+        /// <summary>
+        /// DataList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }
