@@ -4,7 +4,7 @@
 * ASP.NET 4.8
 ## Coffee Shop
 * Use cookie to pass data to shopping cart.
-* Apply 
+* All data processed in database
 * Provide browse, register, addToCart, Checkout and basic CRUD functions.
 1. Home page
 <p align=”center”>
