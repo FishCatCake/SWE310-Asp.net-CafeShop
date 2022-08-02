@@ -2,7 +2,8 @@
 * MS SQL Server 2019
 * MS Visual Studio 2019
 * ASP.NET 4.8
-## Coffee Shop
+## Milano Cafe
+
 * Use cookie to pass data to shopping cart.
 * All data processed in database
 * Provide browse, register, addToCart, Checkout and basic CRUD functions.
